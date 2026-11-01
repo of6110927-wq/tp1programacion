@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.pantallas {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.nav button:hover {
+  background: #555;
+}
+.paginas {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.container-scroll {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.imagen {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.bold {
+  font-weight: bold;
+}
+.contactoPagina {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contactoColumnas {
+  display: flex;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.columnaFormulario,
+.columna-mapa {
+  flex: 1;
+}
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contacto label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.btn-submit {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .contactoColumnas {
+    flex-direction: column;
+  }
+}

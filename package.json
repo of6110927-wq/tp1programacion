@@ -1,0 +1,17 @@
+{
+  "name": "tp-1",
+  "version": "1.0.0",
+  "homepage": "https://of6110927-wq.github.io/TrabajoPractico1/",
+  "dependencies": {
+    "@emailjs/browser": "^4.0.0",
+    "@expo/vector-icons": "^15.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native-web": "~0.19.6",
+    "react-native-paper": "^5.0.0",
+    "react-native-webview": "13.15.0"
+  },
+  "scripts": {
+    "build": "npx expo export"
+  }
+}
